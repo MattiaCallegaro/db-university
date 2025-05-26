@@ -17,3 +17,15 @@ per ogni appello d'Esame a cui lo Studente ha partecipato, è necessario memoriz
 Utilizzare https://www.drawio.com/ per la creazione dello schema. Esportare quindi il diagramma in jpg e caricarlo nella repo.
 
 Buon lavoro!
+
+
+
+
+# 2 ESERCIZIO
+
+## Esercizio di oggi: nome repo: db-university (stessa degli altri giorni)
+
+Dopo aver creato un nuovo database nel vostro MySQL Workbench e aver importato lo schema allegato, eseguite le query del file allegato.
+
+Cosa consegnare?
+Dopo aver testato le vostre query con MySQL Workbench, riportatele in un file txt e caricatelo nella vostra repo.
