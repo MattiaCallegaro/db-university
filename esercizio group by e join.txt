@@ -42,6 +42,14 @@ JOIN
 
 1. Selezionare tutti gli studenti iscritti al Corso di Laurea in Economia
 
+SELECT `students`.*
+FROM `students`
+JOIN `degrees` ON `students`.`degree_id` = `degrees`.`id`
+WHERE `degrees`.`name` LIKE '%Economia%';
+
+Seleziono tutte le colonne di students da students, Inserisco corsi in studenti con corsi.id e gli dico che è uguale a cordi.id
+Condizione il nome del corso deve contenere la parola Economia
+
 
 2. Selezionare tutti i Corsi di Laurea Magistrale del Dipartimento di
 Neuroscienze
