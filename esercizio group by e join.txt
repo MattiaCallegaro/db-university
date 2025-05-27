@@ -66,6 +66,15 @@ Condizione level dentro a corsi sia uguale a magistrale e name dentro a dipartim
 
 3. Selezionare tutti i corsi in cui insegna Fulvio Amato (id=44)
 
+SELECT `courses`.*
+FROM `courses`
+JOIN `course_teacher`ON `courses`.`id`= `course_teacher`.`course_id`
+WHERE `course_teacher`.`teacher_id` = 44;
+
+Seleziono tutte le colonne di corsi da corsi 
+Inserisco couse_teacher in course  e dico che è uguale a course_teacher con id corso
+Condizione che course_teacher con id techer sia uguale a 44 che è Fulvio Amato
+
 
 4. Selezionare tutti gli studenti con i dati relativi al corso di laurea a cui
 sono iscritti e il relativo dipartimento, in ordine alfabetico per cognome e
