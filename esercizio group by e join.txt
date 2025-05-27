@@ -80,6 +80,12 @@ Condizione che course_teacher con id techer sia uguale a 44 che è Fulvio Amato
 sono iscritti e il relativo dipartimento, in ordine alfabetico per cognome e
 nome
 
+SELECT `students`.`name`, `students`.`surname`, `degrees`.*, `departments`.*
+FROM `students`
+JOIN `degrees` ON `degrees`.`id` = `students`.`degree_id`
+JOIN `departments` ON `departments`.`id` = `degrees`.`department_id`
+ORDER BY `students`.`surname` ASC, `students`.`name`ASC 
+
 
 5. Selezionare tutti i corsi di laurea con i relativi corsi e insegnanti
 
